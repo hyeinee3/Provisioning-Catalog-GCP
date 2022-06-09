@@ -6,3 +6,7 @@ instance_type = "e2-micro"
 instance_image = "debian-cloud/debian-9"
 vpc_name = "terraform-js-network"
 subnet_prefix = "demo"
+additional_labels = {
+  "managed_by" = "devos",
+  "created_by" = "js"
+}

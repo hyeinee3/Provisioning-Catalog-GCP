@@ -29,3 +29,8 @@ variable "vpc_name" {
 variable "subnet_prefix" {
   description = "Subnetwork Name Prefix"
 }
+
+variable "additional_labels" {
+  default = {}
+  description = "Additional Labels"
+}
