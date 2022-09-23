@@ -1,12 +1,12 @@
-project_id = "devos-demo-338000"
+project_id = "opsnow-qa-automation"
 region = "asia-northeast3"
 zone = "asia-northeast3-a"
-instance_name = "terraform-instance"
+instance_name = "catalog-terraform-provisioning-hi-instance"
 instance_type = "e2-micro"
-instance_image = "debian-cloud/debian-10"
-vpc_name = "terraform-js-network"
-subnet_prefix = "demo"
+instance_image = "centos-7-v20200403"
+vpc_name = "catalog-terraform-provisioning-hi-network"
+subnet_prefix = "hiqa"
 additional_labels = {
-  "managed_by" = "devos",
-  "created_by" = "js"
+  "swqa" = "devops",
+  "created_by" = "hyein"
 }
